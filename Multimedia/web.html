@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Video Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2fc;
+            color: #302e4d;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #504e70;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            color: #302e4d;
+        }
+
+        audio, video {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #e8dfec;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Audio and Video Best Song Out Now</h1>
+    
+    <!-- Audio Element -->
+    <section>
+        <h2>Audio Player</h2>
+        <audio controls>
+            <source src="rose_bruno_mars_apt._official_lyric_video_mp3_29807.mp3" type="audio/mpeg">
+            <source src="audio-file.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+    
+    <hr>
+
+    <!-- Video Element -->
+    <section>
+        <h2>Video Player</h2>
+        <video controls width="640" height="360" poster="ROSÉ & Bruno Mars _ATP_ 🎧🤎❤️🏍️.jpg">
+            <source src="rose_bruno_mars_apt._official_music_video_h264_29889.mp4" type="video/mp4">
+            <source src="video-file.webm" type="video/webm">
+            Your browser does not support the video element.
+        </video>
+    </section>
+</body>
+</html>
+      
